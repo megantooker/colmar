@@ -1,0 +1,560 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: 'Hind', sans-serif;
+}
+
+/* Header */
+
+
+.header {
+  width: 100%;
+  height: 64px;
+  position: fixed;
+  z-index: 100;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  font-size: 1.5rem;
+  color: dimgray;
+  height: 3.5rem;
+  text-transform: uppercase;
+}
+
+header .logo img {
+  width: 2rem;
+  height: auto;
+  padding-left: 24px;
+}
+
+header .colmar {
+  color: black;
+  font-weight: bold;
+  padding-right: 5px;
+  padding-left: 24px;
+}
+
+.header p {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
+nav a {
+  vertical-align: bottom;
+  font-size: .9rem;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
+header .mobile {
+  display: none;
+}
+
+
+/* Section 1 */
+
+#section1 {
+  display: flex;
+  background-color: silver;
+  background-size: cover;
+  justify-content: space-between;
+  padding: 6rem 5%;
+  border-bottom: 5px solid
+  position: relative;
+}
+
+.writing {
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    align-items: center;
+}
+
+
+.bannerimage {
+  width: 100%;
+  height: auto;
+  margin: 2rem 1.5rem;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.hero .content {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.desktop .content {
+  width: 30%;
+}
+
+.content h1 {
+      font-family: "Hind", serif;
+      font-weight: 700;
+      font-size: 2.25rem;
+      color: dimgray;
+}
+
+.content h4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-family: "Hind", serif;
+  font-size: 1.4rem;
+  color: dimgray;
+}
+
+.button {
+  display: block;
+  background-color: dimgrey;
+  padding: 0.5rem 4rem;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover {
+  background-color: black;
+  transition-property: background-color;
+  transition-duration: 750ms;
+}
+
+
+/* SECTION 2 */
+
+.reading {
+  display: flex;
+  padding: 0 1.5rem;
+}
+.reading .containerleft {
+  width: 60%;
+  padding: 2rem 1.5rem 2rem 0;
+  border-right: 1px solid rgb(245, 245, 245);
+}
+
+.reading .containerleft h2 {
+  color: dimgray;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 32px 0 24px 0;
+}
+
+.reading .containerleft p {
+  margin-bottom: 32px;
+}
+
+.reading .containerleft span {
+  margin-bottom: 32px;
+}
+
+.reading .containerright {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 2rem 0;
+}
+
+.containerright-links-copy p {
+  text-align: center;
+  margin-bottom: 4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.containerright-links {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(245, 245, 245);
+}
+.containerright-links:hover {
+  background-color: lightgray;
+   transition-property: background-color;
+  transition-duration: 750ms;
+}
+
+.containerright-links a {
+  color: blue;
+  text-align: center;
+}
+.containerright-links img {
+  padding-left: 16px;
+  margin: 0 16px 16px 0;
+  height: auto;
+  width: 35%;
+}
+.containerright-links-copy h4 {
+  color: dimgray;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+/* SECTION 3 */
+#section3 {
+  background-color: silver;
+  padding-bottom: 32px;
+
+}
+#section3 h2 {
+  font-family: "Hind", serif;
+  font-weight: 700;
+  font-size: 5rem;
+  text-align: center;
+  color: dimgray;
+  margin: 32px 72px;
+  padding-top: 32px;
+}
+.card-container {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   padding-left: 72px;
+   padding-right: 72px;
+}
+
+.cards {
+  width: 30%;
+  background-color: white;
+  display: block;
+  margin: 16px 16px 0 24px;
+  }
+
+
+.cards img {
+  height: auto;
+  width: 100%;
+}
+
+.card-container .cards h4 {
+  font-weight: bold;
+  color: dimgray;
+  margin: 16px 16px;
+}
+
+.card-container .cards h5 {
+  text-transform: uppercase;
+  margin: 0 16px;
+}
+.card-container .cards p {
+  margin: 16px 16px 0 24px;
+  padding-bottom: 24px;
+}
+
+
+
+/* SECTION 4 */
+
+#section4 {
+  background-color: white;
+  border-bottom: 1px solid rgb(245, 245, 245);
+  }
+
+#section4 h2 {
+  padding-top: 32px;
+  font-family: "Hind", serif;
+  font-weight: 700;
+  font-size: 5rem;
+  text-align: center;
+  color: dimgray;
+}
+
+.thesis {
+  display: flex;
+  background-color: white;
+  justify-content: flex-start;
+}
+
+.thesis .containerleft {
+  width: 60%;
+  margin: 32px 24px;
+}
+.thesis .containerleft video {
+  width: 100%;
+}
+
+.thesis .containerleft h5 {
+  padding-top: 32px;
+  padding-bottom: 8px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.thesis .containerright {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 2rem 0;
+}
+.thesis .containerright-links {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+.containerright-links:hover {
+  background-color: lightgray;
+   transition-property: background-color;
+  transition-duration: 750ms;
+}
+
+.thesis .containerright-links h5 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: dimgray;
+  padding-bottom: 8px;
+}
+
+.containerright-links .thesiscopy {
+  width: 65%;
+  margin: 16px;
+
+}
+
+
+
+
+/* Footer */
+
+#footer {
+  background-color: white;
+  height: 50px;
+    border-top: 1px solid rgb(245, 245, 245);
+}
+
+.footer-copy {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.footer .copyright {
+  flex-grow: 1;
+}
+
+/* Mobile */
+
+
+@media only screen and (max-width: 760px) {
+  header .desktop {
+    display: none;
+  }
+
+  header .logo {
+    display: none;
+  }
+
+  header .content {
+    padding: .5rem 0;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+  header .mobile li {
+    padding: 0;
+  }
+
+  header .mobile .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+
+#section1 {
+  flex-flow: column;
+  padding: 0px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.bannerimage {
+    width: 100%;
+    height: 15rem;
+  }
+
+#section1 .content {
+  padding: 1.25rem 0 1.875rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#section2 {
+  display: flex;
+  flex-flow: column;
+  padding: 0px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#section2 .containerleft {
+  display: none;
+}
+
+#section2 .containerright {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px;
+  width: 100%
+}
+
+.containerright-links {
+  flex-direction: column;
+}
+
+.containerright-links img {
+  height: 15rem;
+  object-fit: cover;
+}
+
+.containerright-links-copy {
+  width: 65%;
+  height: auto;
+}
+
+#section3 {
+  flex-flow: column;
+  padding: 1rem 1rem 0rem 1rem;
+  background-color: white;
+}
+
+#section3 h2 {
+  text-align: center;
+    font-size: 3rem;
+}
+
+.cards {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 90%;
+  background-color: silver;
+}
+
+.cards img {
+  display: none;
+}
+
+.cards h4 {
+  text-align: left;
+}
+
+.cards h5 {
+  display: none;
+}
+
+.cards p {
+  display: none;
+}
+
+#section4 {
+  flex-flow: column;
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#section4 h2 {
+  font-size: 3rem;
+}
+
+.containerleft {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.containerleft h5 {
+  display: none;
+}
+
+.containerleft p {
+  display: none;
+}
+
+#section4 .containerright {
+  display: none;
+}
+
+.fine-print {
+  display: none;
+}
+
+
+}
+
+
+@media only screen and (max-width: 450px) {
+.card-container {
+  display: none;
+}
+
+.card-container .cards h4 {
+  text-align: center;
+}
+
+.card-container .cards h5 {
+  padding: 16px 16px 16px 24px;
+  align-items: center;
+}
+
+.card-container .cards p {
+  display: none;
+}
